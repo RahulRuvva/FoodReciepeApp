@@ -47,19 +47,20 @@ const SLink = styled(NavLink)`
     border-radius: 50%;
     margin-right: 2rem;
     text-decoration: none;
-    background: linear-gradient(35deg, #494949, #313131);
-    width: 6rem;
-    height: 6rem;
+    background: linear-gradient(35deg, #DC143C , #400611);
+    width: 8.5rem;
+    height: 8rem;
     cursor: pointer;
     transform: scale(0.8);
     
     h4 {
         color: white;
-        font-size: 0.8rem;
+        font-size: 1.4rem;
+        
     }
     svg {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
     &.active {
         background: linear-gradient(to right, #f27121, #e94057);
